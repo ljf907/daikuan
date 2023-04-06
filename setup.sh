@@ -9,6 +9,12 @@
 # pip install GDAL==$(gdal-config --version | awk -F'[.]' '{print $1"."$2}') localtileserver
 
 mkdir -p ~/.streamlit/
+
+echo "\
+[general]\n\
+email = \"ljf907\"\n\
+" > ~/.streamlit/credentials.toml
+
 echo "\
 [server]\n\
 headless = true\n\
