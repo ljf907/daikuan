@@ -10,7 +10,7 @@ from matplotlib import pyplot as plt
 #%matplotlib inline
 
 # 导入数据
-full_data = pd.read_csv(ljf907/daikuan/blob/main/train_ctrUa4K.csv)
+full_data = pd.read_csv(main/train_ctrUa4K.csv)
 #full_data = pd.read_csv("D:\\ST\\train_ctrUa4K.csv")
 full_data.shape
 
